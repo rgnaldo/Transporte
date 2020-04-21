@@ -5,11 +5,16 @@
   "main": "index.js",
   "scripts": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "dev": "nodemon src/server.js",
     "dev:debug": "nodemon --inspect src/server.js"
 =======
     "start": "nodemon src/server.js"
 >>>>>>> Configuração inicial do servidor
+=======
+    "dev": "nodemon src/server.js",
+    "dev:debug": "nodemon --inspect src/server.js"
+>>>>>>> configurando o sucrase e nodemon
   },
   "keywords": [],
   "author": "",
