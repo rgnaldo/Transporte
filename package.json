@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "dev": "nodemon src/server.js",
     "dev:debug": "nodemon --inspect src/server.js"
+=======
+    "start": "nodemon src/server.js"
+>>>>>>> Configuração inicial do servidor
   },
   "keywords": [],
   "author": "",
