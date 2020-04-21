@@ -1,14 +1,9 @@
-const express = require ('express');
-const routes = express.Router();
+const {Router} = require ('express');
 
-routes.post('/users', (req, res) => {
-  const body = req.body;
-  console.log(body);
+const routes = new Router();
 
-  return res.json({
-    frete: "Rio preto da eva",
-    valor: "800"
-  });
-});
+routes.get('/', (req, res) => {
+  return res.json({message: 'Hello world'})
+})
+
 module.exports = routes;
-
